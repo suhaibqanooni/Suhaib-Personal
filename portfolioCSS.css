@@ -506,7 +506,7 @@ footer p:nth-child(2){
         display: flex !important;
     }
     .about-container{
-        top: opx;
+        top: 0px;
         flex-direction: column;
         width: 90%;
         height: auto;
@@ -516,6 +516,7 @@ footer p:nth-child(2){
     .about-text{
         width: 90%;
         text-align: center;
+        margin-top: 10px;
     }
     .services-text{
         width: 100%;
@@ -553,6 +554,18 @@ footer p:nth-child(2){
     }
 }
 @media(max-width:450px){
+    .about-container button{
+        width: 100px;
+        height: 30px;
+        color: #FFFFFF;
+        outline: none;
+        border: none;
+        font-family: calibri;
+        background-color: #262525;
+    }
+    .about-container img{
+        height: 150px;
+    }
     .text-container p:nth-child(2){
         font-size: 20px;
     }
