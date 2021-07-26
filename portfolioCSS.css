@@ -70,7 +70,7 @@ nav ul a:hover{
 .text-container p:nth-child(3){
     font-family: myriad pro regular;
     color: #403e3e;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
 }
 .text-container p{
@@ -532,5 +532,27 @@ footer p:nth-child(2){
     }
     footer p:nth-child(2){
         width: 90%;
+    }
+}
+@media(max-width:505px){
+    .text-container p:nth-child(2){
+        font-size: 25px;
+    }
+    .text-container p:nth-child(3){
+        font-size: 20px;
+    }
+    .logo{
+        font-size: 40px;
+    }
+}
+@media(max-width:450px){
+    .text-container p:nth-child(2){
+        font-size: 20px;
+    }
+    .text-container p:nth-child(3){
+        font-size: 16px;
+    }
+    .logo{
+        font-size: 30px;
     }
 }
