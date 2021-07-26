@@ -544,6 +544,12 @@ footer p:nth-child(2){
     .logo{
         font-size: 40px;
     }
+    .contact-me{
+        height: 130px;
+    }
+    .contact-me p{
+        font-size: 15px;
+    }
 }
 @media(max-width:450px){
     .text-container p:nth-child(2){
@@ -554,5 +560,11 @@ footer p:nth-child(2){
     }
     .logo{
         font-size: 30px;
+    }
+    .contact-me{
+        height: 100px;
+    }
+    .contact-me p{
+        font-size: 15px;
     }
 }
