@@ -546,6 +546,7 @@ footer p:nth-child(2){
     }
     .contact-me{
         height: 130px;
+        text-align: center;
     }
     .contact-me p{
         font-size: 15px;
@@ -563,6 +564,7 @@ footer p:nth-child(2){
     }
     .contact-me{
         height: 100px;
+        text-align: center;
     }
     .contact-me p{
         font-size: 15px;
