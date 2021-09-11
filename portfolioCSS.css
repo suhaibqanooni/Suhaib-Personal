@@ -608,10 +608,11 @@ footer p:nth-child(2){
     
 }
 @media(max-width:450px){
-    .slider figure img{
-        width: 20%;
-        height: 400px;
-        float: left;
+    .carousel-image{
+        height: 300px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
     }
     .copyright{
         font-size: 11px;
