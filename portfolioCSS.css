@@ -416,7 +416,10 @@ footer p:nth-child(2){
 }
 .slider figure img{
     width: 20%;
-    height: 599px;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     float: left;
 }
 @keyframes slider{
