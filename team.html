@@ -5,9 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suhaib's Portfolio</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="portfolioCSS.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/portfolioCSS.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-image{
+            height: 500px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
     <section>
@@ -83,14 +92,51 @@
                     <td>Frontend Developer</td>
                 </tr>
             </table>
-            <div class="slider">
-                <figure>
-                    <img src="https://previews.123rf.com/images/auxins/auxins1711/auxins171100030/89759812-flat-lay-photo-of-office-table-with-laptop-computer-notebook-digital-tablet-mobile-phone-pencil-eyeg.jpg" alt="">
-                    <img src="https://cdn.pixabay.com/photo/2015/10/05/13/21/office-972624_640.jpg" alt="">
-                    <img src="https://s3.envato.com/files/277392254/201911302774.JPG" alt="">
-                    <img src="https://cdn.pixabay.com/photo/2015/10/05/13/21/office-972624_640.jpg" alt="">
-                    <img src="https://previews.123rf.com/images/auxins/auxins1711/auxins171100030/89759812-flat-lay-photo-of-office-table-with-laptop-computer-notebook-digital-tablet-mobile-phone-pencil-eyeg.jpg" alt="">
-                </figure>
+            <div class="row">
+                <div class="col">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="carousel_images/1.jpg" alt="" class="d-block w-100 carousel-image">
+                                <div class="carousel-caption">
+                                    <h1>Suhaib Qanooni</h1>
+                                    <h3>Front+Backend Developer</h3>
+                                    <h5><a href="mailto:suhaibqanooni2000@gmail.com">suhaibqanooni2000@gmail.com</a></h5>
+                                    <p>Here is sommething about Suhaib Qanooni</p>    
+                                </div>
+                              </div>
+                            <div class="carousel-item">
+                                <img src="carousel_images/2.jpg" alt="" class="d-block w-100 carousel-image">
+                                <div class="carousel-caption">
+                                    <h1>Noman Ahmadi</h1>
+                                    <h3>Planner & Requirement analyst</h3>
+                                    <h5>ahmadinoman@gmail.com</h5>
+                                    <p>Lorem ipsum dolor sit amet.</p>    
+                                </div>
+                               </div>
+                            <div class="carousel-item">
+                                <img src="carousel_images/3.jpg" alt="" class="d-block w-100 carousel-image">
+                                <div class="carousel-caption">
+                                    <h1>Ahmad Abid</h1>
+                                    <h3>Database Developer</h3>
+                                    <h5>abidnasratyar@gmail.com</h5>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>  
     </div>
